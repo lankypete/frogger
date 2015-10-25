@@ -60,7 +60,7 @@
                     readyCallbacks.forEach(function(func) { func(); });
                 }
             };
-
+console.log(resourceCache);
             /* Set the initial cache value to false, this will change when
              * the image's onload event handler is called. Finally, point
              * the images src attribute to the passed in URL.
